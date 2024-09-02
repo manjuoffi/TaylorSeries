@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Series Plotter</title>
+</head>
+<body>
+    <h1>Taylor Series Plotter</h1>
+    <form method="post">
+        <label for="function">Enter the function (e.g., sin(x)):</label>
+        <input type="text" id="function" name="function" required><br><br>
+
+        <label for="center">Enter the center point (c):</label>
+        <input type="number" id="center" name="center" step="any" required><br><br>
+
+        <label for="order">Enter the order of Taylor series (n):</label>
+        <input type="number" id="order" name="order" required><br><br>
+
+        <label for="xmin">Enter the minimum value of x-axis range:</label>
+        <input type="number" id="xmin" name="xmin" step="any" required><br><br>
+
+        <label for="xmax">Enter the maximum value of x-axis range:</label>
+        <input type="number" id="xmax" name="xmax" step="any" required><br><br>
+
+        <input type="submit" value="Plot Taylor Series">
+    </form>
+</body>
+</html>
